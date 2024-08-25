@@ -1,0 +1,35 @@
+{
+  "name": "color-is-dark",
+  "version": "1.0.0",
+  "description": "Returns whether the given rgb color array has a YIQ brightness value of less than 128 (50% brightness).",
+  "license": "MIT",
+  "author": "https://github.com/ts-web/",
+  "funding": "https://github.com/sponsors/ts-web",
+  "keywords": [
+    "color",
+    "rgb",
+    "dark",
+    "yiq",
+    "contrast",
+    "brightness"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ts-web/color-is-dark.git"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "prepack": "pnpm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist"
+  ]
+}
