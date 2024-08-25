@@ -1,6 +1,6 @@
 {
   "name": "color-is-dark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns whether the given rgb color array has a YIQ brightness value of less than 128 (50% brightness).",
   "license": "MIT",
   "author": "https://github.com/ts-web/",
